@@ -46,6 +46,8 @@ class QuizScreenViewModel with ChangeNotifier {
     notifyListeners();
   }
 
+
+  //TODO: Refactor code to calculate score
   void goToNextQuestion({isCorrectAnswer = false}) {
     countDownController.pause();
     countDownController.getTime();

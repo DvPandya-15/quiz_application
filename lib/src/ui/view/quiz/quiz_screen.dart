@@ -12,16 +12,7 @@ import 'package:quiz_app/src/ui/view/quiz/widgets/question_viewmodel.dart';
 import 'package:quiz_app/src/ui/view/widgets/loading.dart';
 
 class QuizScreen extends StatelessWidget {
-  final Question question = Question(
-    id: 1,
-    question: "how are you?",
-    options: [
-      Option(option: "fine", isCorrect: true, id: 1),
-      Option(option: "ok", id: 2),
-      Option(option: "good", id: 3),
-      Option(option: "maa chodava jay", id: 4),
-    ],
-  );
+
 
   @override
   Widget build(BuildContext context) {
